@@ -80,7 +80,8 @@ export default function Hero() {
             <div className="absolute -bottom-6 left-6 flex items-center gap-4 rounded-2xl border border-beige/70 bg-offwhite/95 px-6 py-4 shadow-soft backdrop-blur-sm sm:left-10">
               <span className="h-12 w-px bg-rose-burnt" aria-hidden="true" />
               <p className="max-w-[15rem] font-serif text-base font-semibold uppercase leading-snug tracking-[0.08em] text-coffee sm:text-lg">
-                Esteticista cuidando da sua autoestima!
+                ESTETICISTA|
+                Cuidando da sua autoestima!
               </p>
             </div>
           </div>
