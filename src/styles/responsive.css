@@ -1,0 +1,15 @@
+.hero-title {
+  font-size: clamp(3.25rem, 15vw, 4.5rem);
+}
+
+@media (min-width: 640px) {
+  .hero-title {
+    font-size: clamp(4.5rem, 11vw, 7rem);
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-title {
+    font-size: 8.5rem;
+  }
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-offwhite font-sans text-coffee antialiased leading-[1.5];
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-serif leading-[1.2];
+  }
+
+  img {
+    @apply block max-w-full;
+  }
+
+  section[id] {
+    scroll-margin-top: 5rem;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-gold ring-offset-2 ring-offset-offwhite;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-sans text-[0.72rem] font-semibold uppercase tracking-[0.32em] text-gold-deep;
+  }
+
+  .gold-rule {
+    @apply h-px w-16 bg-gradient-to-r from-gold via-rose-burnt/70 to-transparent;
+  }
+}
